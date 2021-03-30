@@ -169,7 +169,7 @@ const StickyStyled = styled.div`
 const ParallaxPage = () => (
     <StickyStyled>
         <div className="section">
-        <h2>Its time to start scrolling!</h2>
+        <h2>Its time to start scrolling</h2>
             <div className="asda">
                 <Arrow className="arrow-down animate"/>
             </div>    
