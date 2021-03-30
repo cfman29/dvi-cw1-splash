@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/dvi-cw1-splash/static/css/main.ea1455b2.chunk.css",
+    "main.js": "/dvi-cw1-splash/static/js/main.7c25f7a6.chunk.js",
+    "main.js.map": "/dvi-cw1-splash/static/js/main.7c25f7a6.chunk.js.map",
+    "runtime-main.js": "/dvi-cw1-splash/static/js/runtime-main.c51ed6af.js",
+    "runtime-main.js.map": "/dvi-cw1-splash/static/js/runtime-main.c51ed6af.js.map",
+    "static/js/2.9bf1701f.chunk.js": "/dvi-cw1-splash/static/js/2.9bf1701f.chunk.js",
+    "static/js/2.9bf1701f.chunk.js.map": "/dvi-cw1-splash/static/js/2.9bf1701f.chunk.js.map",
+    "static/js/3.545a842d.chunk.js": "/dvi-cw1-splash/static/js/3.545a842d.chunk.js",
+    "static/js/3.545a842d.chunk.js.map": "/dvi-cw1-splash/static/js/3.545a842d.chunk.js.map",
+    "index.html": "/dvi-cw1-splash/index.html",
+    "static/css/main.ea1455b2.chunk.css.map": "/dvi-cw1-splash/static/css/main.ea1455b2.chunk.css.map",
+    "static/js/2.9bf1701f.chunk.js.LICENSE.txt": "/dvi-cw1-splash/static/js/2.9bf1701f.chunk.js.LICENSE.txt",
+    "static/media/S1P1.5db5fa8b.svg": "/dvi-cw1-splash/static/media/S1P1.5db5fa8b.svg",
+    "static/media/S1P2.94db5a69.svg": "/dvi-cw1-splash/static/media/S1P2.94db5a69.svg",
+    "static/media/S1P3.c046b07d.svg": "/dvi-cw1-splash/static/media/S1P3.c046b07d.svg",
+    "static/media/S2P1.aa41de5c.png": "/dvi-cw1-splash/static/media/S2P1.aa41de5c.png",
+    "static/media/S2P2.edb4e533.png": "/dvi-cw1-splash/static/media/S2P2.edb4e533.png",
+    "static/media/S2P3.ecece979.png": "/dvi-cw1-splash/static/media/S2P3.ecece979.png",
+    "static/media/S2P4.eb857a50.png": "/dvi-cw1-splash/static/media/S2P4.eb857a50.png",
+    "static/media/S3P1.b039114a.svg": "/dvi-cw1-splash/static/media/S3P1.b039114a.svg",
+    "static/media/S3P2.c5cd463f.svg": "/dvi-cw1-splash/static/media/S3P2.c5cd463f.svg",
+    "static/media/S3P3.b6692e18.svg": "/dvi-cw1-splash/static/media/S3P3.b6692e18.svg",
+    "static/media/S3P4.3c60dd87.svg": "/dvi-cw1-splash/static/media/S3P4.3c60dd87.svg",
+    "static/media/secc.879a4b94.jpg": "/dvi-cw1-splash/static/media/secc.879a4b94.jpg",
+    "static/media/shop.374fb3a4.jpg": "/dvi-cw1-splash/static/media/shop.374fb3a4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c51ed6af.js",
+    "static/js/2.9bf1701f.chunk.js",
+    "static/css/main.ea1455b2.chunk.css",
+    "static/js/main.7c25f7a6.chunk.js"
+  ]
+}
