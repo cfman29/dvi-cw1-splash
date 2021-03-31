@@ -3,6 +3,9 @@ import styled from 'styled-components';
 import { Controller, Scene } from 'react-scrollmagic';
 import Arrow from '@material-ui/icons/PlayArrowTwoTone';
 
+import { Link as LinkScroll } from 'react-scroll';
+import {Button} from '@material-ui/core'
+
 import secc from '../img/bg/secc.jpg'
 import S1P1 from '../img/scene/S1P1.svg'
 import S1P2 from '../img/scene/S1P2.svg'
@@ -133,6 +136,7 @@ const StickyStyled = styled.div`
     .end{
         background: #fff;
         height: 100vh;
+        width: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -151,6 +155,16 @@ const StickyStyled = styled.div`
         font-size: 2rem;
     }
 
+    .header-btn{
+        border: none;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
 
     @keyframes bounce {
         0% {
@@ -168,7 +182,7 @@ const StickyStyled = styled.div`
 
 const ParallaxPage = () => (
     <StickyStyled>
-        <div className="section">
+        <div className="section" id="top">
         <h2>Its time to start scrolling</h2>
             <div className="asda">
                 <Arrow className="arrow-down animate"/>
@@ -183,11 +197,7 @@ const ParallaxPage = () => (
             </Scene>
         </Controller>
 
-        <Controller>
-            <Scene duration={100} enabled={true} indicators={false} pin={{ pushFollowers: false }} triggerHook={1}>
-                <div className="sticky char"><div className="S1P-container"><img src={S1P1} alt="" className="S1P" /></div></div>
-            </Scene>
-        </Controller>
+
 
         <Controller>
             <Scene duration={100} enabled={true} indicators={false} pin={{ pushFollowers: false }} triggerHook={1}>
@@ -270,7 +280,10 @@ const ParallaxPage = () => (
                 <div className="sticky end">
                     <h1>Thank you for using this website.</h1>
                     <h2>You will now be redirected to the <span className="Jus">Jus</span><span className="Jax">Jax</span> website</h2>
-                    <h6>(if you are not directed within 10 seconds, please <a href="https://cfman29.github.io/dvi-cw1/">click here</a></h6>
+                    <h6>If you would like to view the splash advert again <LinkScroll className="Link1" to="top" smooth={true} duration={1000} >
+                    <a href="#">click here </a>
+        </LinkScroll>, otherwise <a href="https://cfman29.github.io/dvi-cw1/">click here</a> to go the JusJax website!</h6>
+                    
                 </div>
             </Scene>
         </Controller>
